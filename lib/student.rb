@@ -40,7 +40,7 @@ class Student
 
     student = self.new(hash[:name], hash[:grade])
     student.save
-    
+
     # hash = {:name=>"Sally", :grade=>"10th"}
   end
 
