@@ -39,7 +39,7 @@ class Student
   def self.create(hash)
 
     student = self.new(hash[:name], hash[:grade])
-
+    student.save
     DB[:conn].execute("SELECT * FROM students", hash[:name], hash[:grade])
 
     # hash = {:name=>"Sally", :grade=>"10th"}
