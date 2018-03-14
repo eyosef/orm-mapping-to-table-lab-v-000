@@ -38,6 +38,8 @@ class Student
 
   def self.create(hash)
     binding.pry
+
+    # hash = {:name=>"Sally", :grade=>"10th"}
   end
 
 end
