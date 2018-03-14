@@ -32,7 +32,7 @@ class Student
 
   def save
     #binding.pry
-    sql = ("INSERT INTO students (name, grade) VALUES (?, ?)", name, grade)
+    sql = "INSERT INTO students (name, grade) VALUES (?, ?)", name, grade
     DB[:conn].execute(sql)
   end
 
