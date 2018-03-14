@@ -37,7 +37,7 @@ class Student
   end
 
   def self.create(hash)
-    
+
 
     # hash = {:name=>"Sally", :grade=>"10th"}
   end
