@@ -37,6 +37,7 @@ class Student
   end
 
   def self.create(hash)
+    binding.pry
   end
 
 end
