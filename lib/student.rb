@@ -36,4 +36,7 @@ class Student
     DB[:conn].execute(sql) #FIX - code broken
   end
 
+  def self.create 
+  end
+
 end
