@@ -38,7 +38,7 @@ class Student
 
   def self.create(hash)
     binding.pry
-    DB[:conn].execute("SELECT * FROM students",)
+    DB[:conn].execute("SELECT * FROM students", hash[:name], hash[:grade])
 
     # hash = {:name=>"Sally", :grade=>"10th"}
   end
